@@ -5,14 +5,13 @@ public class Kalkulator {
         Scanner skan = new Scanner(System.in);
 
         System.out.println("Witamy w kalkulatorze \n Podaj pierwsza liczbe: ");
-        int first = skan.nextInt();;
+        double first = skan.nextDouble();;
 
         System.out.println("Podaj drugą liczbe");
-        int second = skan.nextInt();
+        double second = skan.nextDouble();
 
         System.out.println("Jaka operacje chcesz wykonac :, x, +, -");
         int num = skan.next().charAt(0);
-
 
         switch(num){
             case ':' :
