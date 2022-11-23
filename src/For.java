@@ -1,10 +1,12 @@
 public class For {
     public static void main(String[] args) {
 
-        for(int i=0; i<10; i++){
-            System.out.println(i+"\n");
+        String[] cats = new String[]{"Tobi","Daisy","Tofi","Jania"};
 
+        for(int i=0; i<cats.length; i++){
+            System.out.println(cats[i]);
         }
+
 
 
     }
