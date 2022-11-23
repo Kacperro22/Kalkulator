@@ -11,9 +11,9 @@ public class Kalkulator {
         double second = skan.nextDouble();
 
         System.out.println("Jaka operacje chcesz wykonac :, x, +, -");
-        int num = skan.next().charAt(0);
+        int charr = skan.next().charAt(0);
 
-        switch(num){
+        switch(charr){
             case ':' :
                 System.out.println("Suma: " + (first/second));
                 break;
