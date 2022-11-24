@@ -30,6 +30,6 @@ public class Kalkulator {
                 System.out.println("Suma: " + (first-second));
                 break;
         }
-
+        System.out.println("");
     }
 }
